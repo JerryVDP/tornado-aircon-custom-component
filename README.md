@@ -17,7 +17,7 @@ This custom component integrates Tornado Aircon devices with Home Assistant, all
 1. Ensure you have [HACS](https://hacs.xyz/) installed in your Home Assistant setup.
 2. Navigate to **HACS** → **Integrations**.
 3. Click the three dots menu in the top right corner and select **Custom repositories**.
-4. Add the repository URL `https://github.com/romfreiman/tornado-aircon-custom-component` and select the category as **Integration**.
+4. Add the repository URL `https://github.com/jerryvdp/tornado-aircon-custom-component` and select the category as **Integration**.
 5. Find and install the "Tornado Air Conditioner" integration from the HACS store.
 6. Restart Home Assistant.
 
