@@ -31,11 +31,11 @@ _LOGGER = logging.getLogger(__name__)
 
 # Map Tornado modes to Home Assistant modes
 HVAC_MODE_MAP = {
-    0: HVACMode.COOL,
+    0: HVACMode.DRY,
     1: HVACMode.HEAT,
-    2: HVACMode.DRY,
+    2: HVACMode.AUTO,
     3: HVACMode.FAN_ONLY,
-    4: HVACMode.AUTO,
+    4: HVACMode.COOL,
 }
 
 HVAC_MODE_MAP_REVERSE = {v: k for k, v in HVAC_MODE_MAP.items()}
